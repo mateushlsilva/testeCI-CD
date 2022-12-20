@@ -23,4 +23,4 @@ jobs:
       run: docker build app/. -t html-app:1.0
     - name: docker push
       run:
-        docker push docker push mateushlsilva/html-app:1.0
+        docker push mateushlsilva/html-app:1.0
